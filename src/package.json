@@ -1,0 +1,7 @@
+{
+ "dependencies": {
+  "openai": "*",
+  "readline-sync": "*",
+  "telegraf": "*"
+ }
+}
