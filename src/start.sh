@@ -1,7 +1,3 @@
 #!/bin/sh
 
-while true;
-do
- screen -dmS telegram-chatbot node index.js && break;
-done
-
+screen -dmS telegram-chatbot bash -c 'while true; do node index.js; done'
